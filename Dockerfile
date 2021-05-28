@@ -5,7 +5,7 @@ RUN apt update \
 
 RUN mkdir /usr/bot/ \
     && cd /usr/bot/ \
-    && git clone -b Docker https://github.com/Burger209/Gbot.git
+    && git clone https://github.com/Burger209/Gbot.git
 
 WORKDIR /usr/bot/Gbot
 
